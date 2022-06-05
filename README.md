@@ -1,5 +1,7 @@
 # kiba-etl-test
 
+[![ci](https://github.com/iamazeem/kiba-etl-test/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/iamazeem/kiba-etl-test/actions/workflows/ci.yml)
+
 Just a simple [CSV](https://en.wikipedia.org/wiki/Comma-separated_values)
 [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) test using
 [Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language)) and
