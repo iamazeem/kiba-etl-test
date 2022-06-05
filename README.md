@@ -9,8 +9,26 @@ Just a simple [CSV](https://en.wikipedia.org/wiki/Comma-separated_values)
 
 [Rakefile](Rakefile) would be the starting point to read the code.
 
-The `item` field is transformed to lowercase and the `price` field is
-transformed to integer from float.
+The `item` field is transformed to lowercase; and, the `price` field is
+transformed to integer from float and then multiplied by 2.
+
+Source:
+
+```shell
+$ cat data/source.csv 
+id,item,price
+1,ABC,6.00
+2,XYZ,3.00
+```
+
+Destination:
+
+```shell
+$ cat data/destination.csv 
+id,item,price
+1,abc,12
+2,xyz,6
+```
 
 Written and tested on:
 
